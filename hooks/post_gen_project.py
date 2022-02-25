@@ -35,6 +35,16 @@ def clean_extra_package_management_files():
         _logger.warning(f"Error: {e}")
         sys.exit(1)
 
+def create_namespace_folder():
+    module_name = "{{cookiecutter.app_name}}"
+    if "." in module_name:
+        namespace, package_name = module_name.split(".")
+        old = os.path.join(module_name)
+        new = os.path.join(namespace)
+        os.makedirs(new)
+        new = os.path.join(namespace, package_name)
+        shutil.move(old, new)
 
 if __name__ == "__main__":
     clean_extra_package_management_files()
+    create_namespace_folder()

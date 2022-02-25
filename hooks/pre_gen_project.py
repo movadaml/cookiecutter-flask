@@ -4,7 +4,7 @@ import sys
 
 logging.basicConfig()
 _logger = logging.getLogger(__name__)
-MODULE_REGEX = r"^[_a-zA-Z][_a-zA-Z0-9]+$"
+MODULE_REGEX = r"^[_a-zA-Z.][_a-zA-Z0-9.]+$"
 
 
 class bcolors:

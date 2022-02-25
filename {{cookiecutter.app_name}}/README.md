@@ -93,6 +93,21 @@ npm run build   # build assets with webpack
 flask run       # start the flask server
 ```
 
+
+You can also export the static pages and serve without python
+
+```bash
+cd {{cookiecutter.app_name}}
+{%- if cookiecutter.use_pipenv == "True" %}
+pipenv install --dev
+pipenv shell
+{%- else %}
+pip install -r requirements/dev.txt
+{%- endif %}
+python freeze.py
+firefox build/index.html
+```
+
 ## Shell
 
 To open the interactive shell, run
