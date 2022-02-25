@@ -1,5 +1,6 @@
 """Create static webpage."""
 from flask_frozen import Freezer
+
 from {{cookiecutter.app_name}}.app import create_app
 
 freezer = Freezer(create_app())

@@ -29,7 +29,7 @@ jobs:
       - name: Generate template project
         run: invoke build
       - name: Clone demo repo
-        run: git clone --no-checkout git@github.com:jamescurtin/demo-cookiecutter-flask.git /tmp/demo-cookiecutter-flask
+        run: git clone --no-checkout https://github.com/jamescurtin/demo-cookiecutter-flask.git /tmp/demo-cookiecutter-flask
       - name: Move .git dir to generated project
         run: mv /tmp/demo-cookiecutter-flask/.git my_flask_app
       - name: Commit changes

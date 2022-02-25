@@ -38,3 +38,6 @@ Flask-DebugToolbar==0.11.0
 
 # Environment variable parsing
 environs==9.5.0
+
+# Freeze
+Frozen-Flask==0.18
