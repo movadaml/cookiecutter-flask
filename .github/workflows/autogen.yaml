@@ -35,8 +35,4 @@ jobs:
       - name: Commit changes
         run: |
           cd my_flask_app
-          git config --global user.email "jameswcurtin@gmail.com"
-          git config --global user.name "James Curtin"
-          git add .
-          git commit -m "Autobuilding example project" || true
-          git push -u --force origin master || true
+          git diff
