@@ -18,7 +18,7 @@ from {{cookiecutter.app_name}}.extensions import (
 )
 
 
-def create_app(config_object="{{cookiecutter.app_name}}.settings"):
+def create_app(config_object="{{cookiecutter.app_name}}.config"):
     """Create application factory, as explained here: http://flask.pocoo.org/docs/patterns/appfactories/.
 
     :param config_object: The configuration object to use.
