@@ -2,8 +2,8 @@
 
 A Flask template for [cookiecutter](https://github.com/audreyr/cookiecutter). (Supports Python ≥ 3.7)
 
-![Build Status](https://github.com/cookiecutter-flask/cookiecutter-flask/workflows/Lint%20cookiecutter%20template/badge.svg)
-![CodeQL](https://github.com/cookiecutter-flask/cookiecutter-flask/workflows/CodeQL/badge.svg)
+![Build Status](https://github.com/movadaml/cookiecutter-flask/workflows/Lint%20cookiecutter%20template/badge.svg)
+![CodeQL](https://github.com/movadaml/cookiecutter-flask/workflows/CodeQL/badge.svg)
 [![CalVer](https://img.shields.io/badge/calver-YY.MINOR.MICRO-22bfda.svg)](http://calver.org)
 
 See [this repo](https://github.com/jamescurtin/demo-cookiecutter-flask) for an example project generated from the most recent version of the template.
